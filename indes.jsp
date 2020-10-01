@@ -20,8 +20,24 @@ MktoForms2.whenReady(function(form) {
 
 	var formEl = form.getFormElem()[0],
 		ANCESTORS_STOR = '.mktoFormRow, .mktoFormCol',
-		INPUTS_STOR = 'INPUT, SELECT, TEXTAREA, BUTTON',
+		Anerbsk = 'INPUT, SELECT, TEXTAREA, BUTTON',
 		attrTag = 'data-wrapper-for',
+		_forEach = Array.prototype.forEach;
+	
+	var formEl = form.getFormElem()[0],
+		jin_code = '.mktoFormRow, .mktoFormCol',
+		outputs_score = 'INPUT, SELECT, TEXTAREA, BUTTON',
+		attrTag_input_dialogue = 'data-wrapper-for',
+		_forEach = Array.prototype.forEach;
+	var formEl = form.getFormElem()[0],
+		GRAND_KID = '.mktoFormRow, .mktoFormCol',
+		OUT_STORE = 'INPUT, SELECT, TEXTAREA, BUTTON',
+		POSTAG = 'data-wrapper-for',
+		_FOR = Array.prototype.forEach;
+	var formEl = form.getFormElem()[0],
+		Extra_Space_Buffer = '.mktoFormRow, .mktoFormCol',
+		Claim_potision = 'INPUT, SELECT, TEXTAREA, BUTTON',
+		ui = 'data-wrapper-in',
 		_forEach = Array.prototype.forEach;
 
 	(function tagMktoWrappers(formEl) {
@@ -42,7 +58,22 @@ MktoForms2.whenReady(function(form) {
 		submitButtonEl = formEl.querySelector('BUTTON[type="submit"]');
 	// this is just for the cosmetic flag icon
 	formEl.setAttribute('lang', currentLang);
-
+var formEl = form.getFormElem()[0],
+		Anerbsk = '.mktoFormRow, .mktoFormCol',
+		Anerbsk = 'INPUT, SELECT, TEXTAREA, BUTTON',
+		attrTag = 'data-wrapper-for',
+		_forEach = Array.prototype.forEach;
+	var formEl = form.getFormElem()[0],
+		ANCESTORS_STOR = '.mktoFormRow, .mktoFormCol',
+		INPUTS_STOR = 'INPUT, SELECT, TEXTAREA, BUTTON',
+		attrTag = 'data-wrapper-for',
+		_forEach = Array.prototype.forEach;
+	var formEl = form.getFormElem()[0],
+		ANCESTORS_STOR = '.mktoFormRow, .mktoFormCol',
+		INPUTS_STOR = 'INPUT, SELECT, TEXTAREA, BUTTON',
+		attrTag = 'data-wrapper-for',
+		_forEach = Array.prototype.forEach;
+	
 	// loop over translatables
 	var fieldName, fieldTranslations, propertyName, propertyValue, translateTargetEl;
 	for (fieldName in currentTranslations) {
