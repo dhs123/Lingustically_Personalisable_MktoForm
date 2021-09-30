@@ -4,6 +4,20 @@
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
+	
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+	
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
 <script src="//app-sj08.marketo.com/js/forms2/js/forms2.min.js"></script>
 <head>
 <meta charset="ISO-8859-1">
