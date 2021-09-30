@@ -35,6 +35,20 @@ MktoForms2.whenReady(function(form) {
 		POSTAG = 'data-wrapper-for',
 		_FOR = Array.prototype.forEach;
 	var formEl = form.getFormElem()[0],
+		GRAND_KID = '.mktoFormRow, .mktoFormCol',
+		OUT_STORE = 'INPUT, SELECT, TEXTAREA, BUTTON',
+		POSTAG = 'data-wrapper-for',
+		_FOR = Array.prototype.forEach;
+	var formEl = form.getFormElem()[0],
+		GRAND_KID = '.mktoFormRow, .mktoFormCol',
+		OUT_STORE = 'INPUT, SELECT, TEXTAREA, BUTTON',
+		POSTAG = 'data-wrapper-for',
+		_FOR = Array.prototype.forEach;var formEl = form.getFormElem()[0],
+		GRAND_KID = '.mktoFormRow, .mktoFormCol',
+		OUT_STORE = 'INPUT, SELECT, TEXTAREA, BUTTON',
+		POSTAG = 'data-wrapper-for',
+		_FOR = Array.prototype.forEach;
+	var formEl = form.getFormElem()[0],
 		Extra_Space_Buffer = '.mktoFormRow, .mktoFormCol',
 		Claim_potision = 'INPUT, SELECT, TEXTAREA, BUTTON',
 		ui = 'data-wrapper-in',
